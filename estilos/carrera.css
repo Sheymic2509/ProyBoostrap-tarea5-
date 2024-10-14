@@ -1,0 +1,32 @@
+.carrera {
+    padding: 5px;
+    background-color: azure;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas: "header header header"
+                          "bloque1 bloque2 bloque3"
+                          "bloque1 bloque2 bloque3"
+                          "foot foot foot";
+}
+
+.carrera .header {
+    grid-area: header;
+    background-color:  rgb(252, 156, 252);
+}
+
+.carrera .bloque1 {
+    grid-area: bloque1;
+}
+
+.carrera .bloque2 {
+    grid-area: bloque2;
+}
+
+.carrera .bloque3 {
+    grid-area: bloque3;
+}
+
+.carrera .foot {
+    grid-area: foot;
+}

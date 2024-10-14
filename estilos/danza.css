@@ -1,0 +1,32 @@
+.danza {
+    padding: 5px;
+    background-color: azure;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-areas: "header header header"
+                          "bloque1 bloque2 bloque3"
+                          
+                          "foot foot foot";
+}
+
+.danza .header {
+    grid-area: header;
+    background-color:  rgb(252, 156, 252);
+}
+
+.danza .bloque1 {
+    grid-area: bloque1;
+}
+
+.danza .bloque2 {
+    grid-area: bloque2;
+}
+
+.danza .bloque3 {
+    grid-area: bloque3;
+}
+
+.carrera .foot {
+    grid-area: foot;
+}
